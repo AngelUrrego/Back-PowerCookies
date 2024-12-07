@@ -15,7 +15,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://powercookies.netlify.app/' }));
+app.use(cors());
 app.use(express.json());
 
 // Rutas
